@@ -2,7 +2,7 @@ function require ()
 { 
 var rl = require ('readline');
 var prompts = rl.createInterface(process.stdin, process.stdout);
-prompts.question("Quelle est la taille de la pyramide : ");
+prompts.question("Salut, bienvenue dans ma super pyramide! Combien d'etage veux tu ?");
 }
 
 function rows ()
